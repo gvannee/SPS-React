@@ -1,0 +1,157 @@
+.showPost {
+    display: flex;
+    flex-direction: row;
+    padding: 12px 0px 10px 0px;
+    width: 100%;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 20px;
+
+}
+
+.avatar {
+    flex: 0;
+}
+
+.avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.postInfo {
+    background-color: lightblue;
+    flex: 2;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 12px 0px 12px;
+
+}
+
+.left {
+    font-size: 15px;
+    display: flex;
+    padding: 2px 0px 5px 0px;
+}
+
+
+.left span {
+    font-weight: bold;
+    text-align: left;
+    padding: 0;
+}
+
+.left span:hover {
+    text-decoration: underline;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.username {
+    font-weight: lighter;
+
+    color: rgba(211, 211, 211, 0.536);
+    justify-self: start;
+}
+
+.username:hover {
+    text-decoration: none;
+}
+
+.right {
+    position: relative;
+    text-align: right;
+}
+
+.pop {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 18px;
+    z-index: 999;
+}
+
+.pop button {
+    border-radius: 0px;
+}
+
+.pop button:hover {
+    background-color: rgb(250, 80, 80);
+}
+
+
+
+.main {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    line-break: auto;
+
+}
+
+.main img {
+    max-height: 40vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.main p {
+    margin-top: 0px;
+    padding: 0px 12px 0px 12px;
+}
+
+.reaction {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 9px;
+    padding: 0px 10px 0px 10px;
+
+}
+
+.like,
+.comment,
+.share {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 37%;
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+}
+
+
+
+.like:hover {
+    color: red;
+    background-color: rgba(120, 6, 6, 0.47);
+}
+
+.icon4 {
+
+    padding: 8px;
+
+
+}
+
+
+
+
+.comment:hover {
+    color: rgb(81, 255, 0);
+    background-color: rgba(51, 145, 7, 0.326);
+}
+
+
+
+
+.share:hover {
+    color: rgb(0, 183, 255);
+    background-color: rgba(7, 118, 162, 0.337);
+}

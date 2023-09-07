@@ -1,0 +1,30 @@
+.container { 
+    padding: 10px;
+    color: whitesmoke;
+    height: 100%;
+    
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+
+
+.post {
+    margin-top: 10px;
+    width: 80%;
+}
+
+
+
+/* .left, .right, .mid {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    
+} */

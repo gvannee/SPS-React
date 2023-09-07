@@ -1,0 +1,109 @@
+.newPost {
+    width: 50%;
+    border: 1px solid white;
+    border-left: none;
+    border-radius: 20px;
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.user {
+    display: flex;
+    justify-content: space-between; 
+    
+}
+select {
+    color: black;
+    background-color: antiquewhite;
+}
+.avatar {
+    flex: 0;
+}
+
+.avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.left {
+    font-size: 15px;
+    display: flex;
+    padding: 2px 0px 5px 0px;
+}
+
+
+.left span {
+    font-weight: bold;
+    text-align: left;
+    padding: 0;
+}
+
+.left span:hover {
+    text-decoration: underline;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.username {
+    font-weight: lighter;
+   
+    color: rgba(211, 211, 211, 0.536);
+    justify-self: start;
+}
+
+.username:hover {
+    text-decoration: none;
+}
+.postContent {
+    padding-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+input {
+    width: 100%;
+    background-color: rgb(24,25,26);
+    border: none;
+    color: whitesmoke;
+}
+
+input:focus{
+    outline: none;
+}
+
+.ipPhoto {
+    margin-top: 15px;
+    text-align: right;
+    width: 30%;
+}
+
+
+.postPic {
+    margin-top: 15px;
+}
+
+.postContent button, .btnPost {
+    color: whitesmoke;
+    margin-top: 10px;
+    background-color: rgb(35,116,225);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 0px;
+    width: 11%;
+    max-height: 15%;
+    justify-self: end;
+    align-self: end;
+}
+
+.btnPost:hover {
+    background-color: rgba(107, 183, 249, 0.878)
+}
+
