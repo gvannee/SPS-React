@@ -1,0 +1,37 @@
+.navbar {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: 100px;
+    position: fixed;
+    padding: 10px 20px 10px 0px;
+}
+
+.homepage, .listPosts {
+    
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 15px 10px 0px;
+    margin-top: 50px;
+    border-left: none;
+    border-radius: 0px 20px 20px 0px;
+    background: radial-gradient(circle, rgba(0,141,255,1) 0%, rgba(80,194,237,1) 77%, rgba(0,212,255,1) 100%);
+}
+
+.listPosts:hover, .homepage:hover {
+    padding: 20px 10px 20px 0px;
+    text-decoration: underline;
+}
+
+
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+

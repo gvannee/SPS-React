@@ -27,7 +27,7 @@ const Card = ({ user }) => {
                     </div>
                     <div className="userInfo">
                         <span>Giáng Vân</span>
-                        <span className='username'>1p</span>
+                        <span className='username'>1 phút</span>
                     </div>
                 </div>
 

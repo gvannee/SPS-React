@@ -7,6 +7,8 @@
     padding: 10px;
     display: flex;
     flex-direction: column;
+    box-shadow: 1px 5px 0px 1px #88888825;
+    margin-top: 20px;
 }
 .user {
     display: flex;
@@ -15,7 +17,7 @@
 }
 select {
     color: black;
-    background-color: antiquewhite;
+    background-color: whitesmoke;
 }
 .avatar {
     flex: 0;
@@ -47,7 +49,7 @@ select {
 .userInfo {
     display: flex;
     flex-direction: column;
-    margin-left: 5px;
+    margin-left: 8px;
 }
 
 .username {
@@ -91,7 +93,6 @@ input:focus{
 }
 
 .postContent button, .btnPost {
-    color: whitesmoke;
     margin-top: 10px;
     background-color: rgb(35,116,225);
     border: none;
@@ -101,6 +102,10 @@ input:focus{
     max-height: 15%;
     justify-self: end;
     align-self: end;
+}
+
+.btnPost {
+    color: whitesmoke;
 }
 
 .btnPost:hover {

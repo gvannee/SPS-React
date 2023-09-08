@@ -3,9 +3,8 @@
     flex-direction: row;
     padding: 12px 0px 10px 0px;
     width: 100%;
-    border: 1px solid rgb(212, 212, 212);
-    border-radius: 20px;
-
+    
+    
 }
 
 .avatar {
@@ -20,7 +19,7 @@
 }
 
 .postInfo {
-    background-color: lightblue;
+    background-color: rgb(24,25,26);
     flex: 2;
 }
 
@@ -56,13 +55,14 @@
 
 .username {
     font-weight: lighter;
-
+    
     color: rgba(211, 211, 211, 0.536);
     justify-self: start;
 }
 
 .username:hover {
     text-decoration: none;
+
 }
 
 .right {
@@ -97,8 +97,8 @@
 }
 
 .main img {
-    max-height: 40vh;
-    width: 100%;
+    max-height: fit-content;
+    max-width: 100%;
     object-fit: cover;
 }
 
@@ -112,6 +112,7 @@
     justify-content: space-between;
     margin-top: 9px;
     padding: 0px 10px 0px 10px;
+ 
 
 }
 

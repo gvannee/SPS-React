@@ -1,4 +1,5 @@
 import { useContext } from "react";
+import './newsfeed.css';
 import Card from "../../components/card/Card";
 import { DataLength } from "../../context/DataLength";
 
@@ -12,10 +13,8 @@ const Newsfeed = () => {
         
     }
     
-
-
     return (
-        <div className="mid">
+        <div className="feed">
                 {
                     Array.isArray(users) ? (users.map((user, index) =>{
                         console.log(user);
