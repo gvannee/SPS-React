@@ -1,5 +1,5 @@
 .newPost {
-    width: 50%;
+    width: 40%;
     border: 1px solid white;
     border-left: none;
     border-radius: 20px;
@@ -75,6 +75,9 @@ input {
     background-color: rgb(24,25,26);
     border: none;
     color: whitesmoke;
+    justify-self: end;
+    align-self: end;
+
 }
 
 input:focus{
@@ -97,11 +100,11 @@ input:focus{
     background-color: rgb(35,116,225);
     border: none;
     border-radius: 5px;
-    padding: 5px 0px;
-    width: 11%;
+    padding: 8px 0px;
+    width: 100%;
     max-height: 15%;
-    justify-self: end;
-    align-self: end;
+    
+    font-weight: bold;
 }
 
 .btnPost {

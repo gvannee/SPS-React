@@ -46,9 +46,6 @@ const AddPost = () => {
         setUrl("")
         setDesc("")
         setCount(count + 1);
-
-
-
     }
 
     useEffect(() => {

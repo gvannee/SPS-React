@@ -1,17 +1,22 @@
-import { useContext } from "react";
+import { useState, useEffect } from "react";
 import './newsfeed.css';
 import Card from "../../components/card/Card";
 import { DataLength } from "../../context/DataLength";
 
 const Newsfeed = () => {
+    const userArr = []
     
-    const users = []
     for (let i = 0; i <= localStorage.length - 1; i++) {
-        
-            users.push(JSON.parse(localStorage.getItem(`user${i}`)))
-        
+        const user = JSON.parse(localStorage.getItem(`user${i}`));
+        userArr.push(user)
         
     }
+    const [users, setUsersArr] = useState(userArr)
+
+    useEffect(() => {
+        
+    
+        }, [userArr])
     
     return (
         <div className="feed">
@@ -21,7 +26,7 @@ const Newsfeed = () => {
                         return (
                             <div className="post" key={index} > <Card user={user} /> </div>
                         )
-                    })) : null
+                    })) : console.log(null)
                 }
 
             </div>
